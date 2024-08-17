@@ -1,0 +1,29 @@
+
+  
+  body{
+    font-family: 'Indie Flower';
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .presentacion{
+    border-radius: 15px;
+    margin: 30px auto;
+    height: 450px;
+    width: 50%;
+    color: black;
+    text-align: left;
+  }
+
+  h1{
+    text-align: left;
+  }
+
+.clave1{
+    width: 500px;
+}
+p{
+    text-align: center;
+}
+  
+  
