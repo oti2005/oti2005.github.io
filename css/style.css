@@ -1,6 +1,7 @@
 
   
   body{
+    background-image: url("../img/gifffff.gif");
     font-family: 'Indie Flower';
     font-size: 18px;
     text-align: center;
@@ -9,21 +10,38 @@
   .presentacion{
     border-radius: 15px;
     margin: 30px auto;
-    height: 450px;
     width: 50%;
-    color: black;
-    text-align: left;
+    color: white;
+    text-align: center;
   }
 
   h1{
-    text-align: left;
+    text-align: center;
   }
 
 .clave1{
-    width: 500px;
+    width: 400px;
+    height: 30px;
 }
 p{
     text-align: center;
+    color: white;
 }
-  
-  
+
+.titulo{
+  text-align: left;
+}
+
+.titulo1{
+  text-align: center;
+}
+
+textarea{
+  height:400px;
+  width: 700px;
+  resize: none;
+}
+.titulo2{
+  display: flex;
+  justify-content: right;
+}

@@ -12,9 +12,14 @@ boton_cifrar.addEventListener("click",()=>{
         alert("ingresa tu clave secreta");
     }else{
         let texto ="";
-        let textoCifrado= desifrado_cifrado(mensaje.value,des.value,1);
+        let textoCifrado= desifrado_cifrado(mensaje.value,desplazamiento.value,1);
         texto += "El mensaje cifrado es:"
         texto += textoCifrado;
         document.getElementById("resultado").innerHTML=texto;
     }
 })
+function clearMsg(){
+    txtMsg.value="";
+    txtMsg.innerHTML="";
+    Count.innerHTML="0/150";
+}
