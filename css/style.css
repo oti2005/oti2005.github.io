@@ -20,7 +20,7 @@
   }
 
 .clave1{
-    width: 400px;
+    width: 500px;
     height: 30px;
 }
 p{
@@ -40,8 +40,27 @@ textarea{
   height:400px;
   width: 700px;
   resize: none;
+  color:white;
+  background-color:transparent;
+  border:5px solid skyblue;
+  font-size: 15px;
 }
 .titulo2{
   display: flex;
   justify-content: right;
+}
+
+textarea::placeholder{
+  color:white;
+  font-size: 15px;
+}
+.boton1{
+  height: 30px;
+  width: 70px;
+}
+.boton2{
+  height: 30px;
+}
+.resultado1{
+  color:white;
 }
