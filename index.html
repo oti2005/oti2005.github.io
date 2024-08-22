@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="presentacion">
@@ -23,11 +24,16 @@
     </div>
     <div class="botones">
         <button class="boton1" id="cifrar">  
-            <i clas="fas fa-lock"></i>cifrar
+            <i class="fa-solid fa-lock"> cifrar</i>
         </button>
         <button class="boton2" id="descifrar">
-            <i clas="fas fa-lock-open"></i> descifrar
+            <i class="fa-solid fa-unlock"> descifrar</i>
             </button>
+    </div>
+    <div id="myModal" class="modal"> 
+        <div class="modalContenido">
+            <span class="close">&times;</span>
+        </div>
     </div>
     <script src="js/srcipt.js" type="module"></script>
     <script src="js/cifrado.js" type="module"></script>
